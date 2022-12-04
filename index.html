@@ -23,15 +23,14 @@
                 },
             });
         </script>
-        <audio
-               src="audio/xmas.mp3"
-               preload="auto"
-               loop
-               autoplay
-               ></audio>
     </head>
 
     <body style="margin: 0; overflow: hidden;">
+        <audio controls autoplay>
+  <source src="audio/xmas.ogg" type="audio/ogg">
+  <source src="audio/xmas.mp3" type="audio/mpeg">
+  你的瀏覽器不支援 audio tag！
+</audio>
         <a-scene
             vr-mode-ui="enabled: false"
             loading-screen="enabled: false;"
