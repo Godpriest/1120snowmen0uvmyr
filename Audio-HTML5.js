@@ -7,7 +7,7 @@ var mp3snd 	= "audio-file.mp3";	// MP3 FILE
 var oggsnd 	= "audio-file.ogg";	// OGG FILE
 
 
-var loopsong	= "no"			// LOOP MUSIC | yes | no |
+var loopsong	= "yes"			// LOOP MUSIC | yes | no |
 var autostarts	= "yes"			// AUTO START MUSIC | yes | no |
 
 
